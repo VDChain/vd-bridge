@@ -9,7 +9,7 @@
 [![Live](https://img.shields.io/badge/Status-Live-22C55E?style=for-the-badge)](https://bridge.vdscan.io)
 [![BSC](https://img.shields.io/badge/From-BSC-F59E0B?style=for-the-badge)](https://bridge.vdscan.io)
 [![VDChain](https://img.shields.io/badge/To-VDChain-3B82F6?style=for-the-badge)](https://bridge.vdscan.io)
-[![Chain](https://img.shields.io/badge/Chain%20ID-882022-8B5CF6?style=for-the-badge)](https://vdscan.io)
+[![Chain](https://img.shields.io/badge/Chain%20ID-882026-8B5CF6?style=for-the-badge)](https://vdscan.io)
 
 **[Launch Bridge](https://bridge.vdscan.io)** · **[Explorer](https://vdscan.io)** · **[GitHub](https://github.com/VDChain)**
 
@@ -19,7 +19,7 @@
 
 ## Overview
 
-VD Bridge is the official cross-chain bridge connecting Binance Smart Chain (BSC) and VDChain Mainnet (Chain ID: 882022). It enables seamless transfer of tokens between the two networks using a lock-and-mint / burn-and-release mechanism secured by smart contracts on both chains.
+VD Bridge is the official cross-chain bridge connecting Binance Smart Chain (BSC) and VDChain Mainnet (Chain ID: 882026). It enables seamless transfer of tokens between the two networks using a lock-and-mint / burn-and-release mechanism secured by smart contracts on both chains.
 
 Users can bridge USDT, WBNB, and WETH from BSC to VDChain, where they are represented as VD20-wrapped ERC-20 tokens — fully tradeable on VDSwap and usable across the VDChain DeFi ecosystem.
 
@@ -29,7 +29,7 @@ Users can bridge USDT, WBNB, and WETH from BSC to VDChain, where they are repres
 
 | Token | BSC Contract | VDChain Contract |
 |-------|-------------|-----------------|
-| USDT | BSC Native USDT | `0xA64bebb4Fc97383FE05492AF94A08fcfA3adbF2A` |
+| USDT | BSC Native USDT | `0x21Ab42AA59B9C9A9264ba2c71dC90a3eAEEa8DfD` |
 | WBNB | BSC Native WBNB | `0xF0E0E3fa91591b7d5F86dD22E1e21a5c56022A33` |
 | WETH | BSC Native WETH | `0x2f231e39d2267b5a26d5c87d65A991e060071120` |
 
@@ -61,13 +61,13 @@ Token arrives in user wallet on BSC
 ### BSC Contracts
 | Contract | Address |
 |----------|---------|
-| Bridge Vault | `0xf6F665A8ddAE95fFDe719a3EB1B732b3e5962150` |
+| Bridge Vault | `0x902c1dcf29B6Ae60c64eb67eAe5580e2aa6ce762` |
 
 ### VDChain Contracts
 | Contract | Address |
 |----------|---------|
-| Bridge Controller | `0xB5e568d091820DDe97A81FE3845EF7F66472ac92` |
-| USDT (VD20) | `0xA64bebb4Fc97383FE05492AF94A08fcfA3adbF2A` |
+| Bridge Controller | `0xC95073feA071584bF0E5db02bF338E39643ea232` |
+| USDT (VD20) | `0x21Ab42AA59B9C9A9264ba2c71dC90a3eAEEa8DfD` |
 | WBNB (VD20) | `0xF0E0E3fa91591b7d5F86dD22E1e21a5c56022A33` |
 | WETH (VD20) | `0x2f231e39d2267b5a26d5c87d65A991e060071120` |
 
@@ -115,7 +115,7 @@ All bridged tokens on VDChain follow the **VD20** standard — an ERC-20 extensi
 ### Add VDChain to MetaMask
 Network Name: VDChain
 RPC URL:      https://rpc.vdscan.io
-Chain ID:     882022
+Chain ID:     882026
 Symbol:       VDC
 Explorer:     https://vdscan.io
 
@@ -143,7 +143,7 @@ Explorer:     https://bscscan.com
 |----------|-----|
 | Bridge App | https://bridge.vdscan.io |
 | VDChain Explorer | https://vdscan.io |
-| BSC Vault on BSCScan | https://bscscan.com/address/0xf6F665A8ddAE95fFDe719a3EB1B732b3e5962150 |
+| BSC Vault on BSCScan | https://bscscan.com/address/0x902c1dcf29B6Ae60c64eb67eAe5580e2aa6ce762 |
 | GitHub Organization | https://github.com/VDChain |
 | Smart Contracts | https://github.com/VDChain/smart-contracts |
 
@@ -151,6 +151,6 @@ Explorer:     https://bscscan.com
 
 <div align="center">
 
-**Built on VDChain Mainnet · Chain ID: 882022 · Powered by VDC**
+**Built on VDChain Mainnet · Chain ID: 882026 · Powered by VDC**
 
 </div>
